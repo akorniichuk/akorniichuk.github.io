@@ -1,0 +1,28 @@
+body {
+    font-size: 2rem;
+    font-family: $font;
+  }
+  
+  html {
+    background-color: $background-s;
+  }
+  
+  p {
+    font-family: $font-p;
+  }
+  
+  .main__wrapper {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  
+  .halpq-key {
+    color: $accent;
+  }
+  
+  @media (max-width: 600px) {
+    .main__wrapper {
+      width: 90%;
+    }
+  }

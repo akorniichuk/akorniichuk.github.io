@@ -1,0 +1,27 @@
+.skills {
+    background: $background-s;
+    &__title {
+      margin: 50px 0 20px;
+      font-size: 2.5rem;
+      text-align: right;
+      color: $white;
+      border-bottom: 4px solid $accent;
+    }
+    &__list {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+  
+      &__item {
+        width: 70px;
+        margin: 0 12.5px 25px 12.5px;
+        transition: transform 0.5s;
+        &:hover {
+          transform: translateY(-20%);
+        }
+      }
+    }
+  }

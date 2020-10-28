@@ -1,1 +1,1 @@
-# personal_website
+Personal website that consists of resume and portfolio.
