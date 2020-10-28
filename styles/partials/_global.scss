@@ -10,6 +10,10 @@ body {
   p {
     font-family: $font-p;
   }
+
+  img {
+    image-orientation: from-image;
+  }
   
   .main__wrapper {
     width: 75%;
